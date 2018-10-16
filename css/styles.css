@@ -1,0 +1,27 @@
+#initially-showing {
+}
+
+#initially-hidden, #initially-hidden2 {
+  display: none;
+}
+
+.showcard {
+}
+
+.hidecard {
+  display: none;
+}
+
+/* [id^='initially-hidden_'] {
+  display: none;
+} */
+
+.clickable {
+  curser: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  color: red;
+}
