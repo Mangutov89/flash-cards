@@ -1,9 +1,9 @@
-#initially-showing {
+/* #initially-showing {
 }
 
-#initially-hidden, #initially-hidden2 {
+#initially-hidden {
   display: none;
-}
+} */
 
 .showcard {
 }
@@ -12,9 +12,9 @@
   display: none;
 }
 
-/* [id^='initially-hidden_'] {
+[id^='initially-hidden_'] {
   display: none;
-} */
+}
 
 .clickable {
   curser: pointer;
