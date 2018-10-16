@@ -1,15 +1,3 @@
-#initially-showing, #initially-showing2, #initially-showing3, #initially-showing4 {
-}
-
-#initially-hidden, #initially-hidden2, #initially-hidden3, #initially-hidden4 {
-  display: none;
-}
-
-.clickable, .clickable2, .clickable3 {
-  cursor: pointer;
-  color: hotpink;
-}
-
 .clickable:hover {
   text-decoration: underline;
   color: red;
@@ -20,4 +8,13 @@
 
 .hidecard {
   display: none;
+}
+
+[id^='initially_hidden'] {
+  display: none;
+}
+
+[class^='clickable'] {
+  cursor: pointer;
+  color: hotpink;
 }
