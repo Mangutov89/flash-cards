@@ -22,9 +22,11 @@
 .well {
   padding: 50px;
   text-align: center;
+  background-color: lightblue;
 }
 
 h1 {
+  font-size: 60px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
