@@ -10,7 +10,7 @@
   display: none;
 }
 
-[id^='initially_hidden'] {
+[id^='initially-hidden'] {
   display: none;
 }
 
