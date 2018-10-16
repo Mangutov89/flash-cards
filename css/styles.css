@@ -1,27 +1,23 @@
-/* #initially-showing {
+#initially-showing, #initially-showing2, #initially-showing3, #initially-showing4 {
 }
 
-#initially-hidden {
+#initially-hidden, #initially-hidden2, #initially-hidden3, #initially-hidden4 {
   display: none;
-} */
+}
+
+.clickable, .clickable2, .clickable3 {
+  cursor: pointer;
+  color: hotpink;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  color: red;
+}
 
 .showcard {
 }
 
 .hidecard {
   display: none;
-}
-
-[id^='initially-hidden_'] {
-  display: none;
-}
-
-.clickable {
-  curser: pointer;
-  color: #0088cc;
-}
-
-.clickable:hover {
-  text-decoration: underline;
-  color: red;
 }
